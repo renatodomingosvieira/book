@@ -1,0 +1,539 @@
+*{
+
+  padding:0;
+  margin:0;
+
+}
+
+body {
+  font-family: 'helvetica', sans-serif;
+  background-color: #F8F9F9;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.container {
+
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center
+}
+
+.link_autor {
+
+  width: 200px;
+  height: 200px;
+  background-color: #FF5733;
+  text-align: center;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+} 
+
+.link_livros {
+
+  width: 200px;
+  height: 200px;
+  background-color: #C70039;
+  text-align: center;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+} 
+
+.link_acervo {
+
+  width: 200px;
+  height: 200px;
+  background-color: #900C3F;
+  text-align: center;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+} 
+
+a {
+    text-decoration: none;
+}
+
+.link_acervo a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.link_livros a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.link_autor a {
+
+    text-decoration: none;
+    color: white;
+}
+
+table{
+  border: 2px;
+  background-color: #900C3F;
+  width: 80%;
+}
+
+.container_autor {
+
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formulario {
+
+  text-align: center;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.titulo_autor {
+
+  width: 600px;
+  height: 60px;
+  background-color: #FF5733;
+  text-align: center;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  margin: 1px;
+  color: white;
+} 
+
+.botao {
+
+  width: 150px;
+  background-color:#829e00;
+  cursor:pointer;
+  border: none;
+  color:#ffffff;
+  font-size:17px;
+  padding:16px 31px;
+  text-decoration:none;
+  text-align: center;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input_autor {
+  width: 600px;
+  height: 40px;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+  border: none;
+}
+
+.input_autor label{
+  width: 20%;
+  height: 40px;
+  background-color: #FF5733;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.input_autor input{
+  width: 80%;
+  height: 40px;
+  color: black;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.input_text {
+
+  color: black;
+}
+
+.input_nacional {
+   width: 600px;
+  height: 40px;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+  border: none;
+}
+
+.input_nacional label{
+  width: 20%;
+  height: 40px;
+  background-color: #FF5733;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.div-select {    
+
+width:80%;
+height: 40px; 
+text-align: center; /* Tamanho final do select */   
+}
+
+.div-select select {       
+width: 100%; /* Tamanho do select, maior que o tamanho da div "div-select" */      
+height:40px; /* altura do select, importante para que tenha a mesma altura em todo os navegadores */  
+font-family:Arial, Helvetica, sans-serif; /* Fonte do Select */  
+text-align: center;
+padding-left: 190px;
+align-items: center;
+justify-content: center;  /* Configurações de padding para posicionar o texto no campo */  
+color:black; /* Cor da Fonte */      }
+
+.div-selectmulti {    
+
+width:80%;
+height: 40px; 
+text-align: center; /* Tamanho final do select */   
+}
+
+.div-selectmulti select {       
+width: 100%; /* Tamanho do select, maior que o tamanho da div "div-select" */      
+height:40px; /* altura do select, importante para que tenha a mesma altura em todo os navegadores */  
+font-family:Arial, Helvetica, sans-serif; /* Fonte do Select */  
+text-align: center;
+align-items: center;
+justify-content: center;  /* Configurações de padding para posicionar o texto no campo */  
+color:black; /* Cor da Fonte */      }
+
+
+p {
+  text-align: center;
+   font-size:13px;
+   color: gray;
+
+
+}
+
+.container_livro {
+
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo_livro {
+
+  width: 600px;
+  height: 60px;
+  background-color: #C70039;
+  text-align: center;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  margin: 1px;
+  color: white;
+} 
+
+.input_titulo {
+  width: 600px;
+  height: 40px;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+  border: none;
+}
+
+.input_titulo label{
+  width: 20%;
+  height: 40px;
+  background-color: #C70039;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.input_titulo input{
+  width: 80%;
+  height: 40px;
+  color: black;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.input_autor1 {
+  width: 600px;
+  height: 40px;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+  border: none;
+}
+
+.input_autor1 label{
+  width: 20%;
+  height: 40px;
+  background-color: #C70039;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.input_autor1 input{
+  width: 80%;
+  height: 40px;
+  color: black;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.input_editora {
+  width: 600px;
+  height: 40px;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+  border: none;
+}
+
+.input_editora label{
+  width: 20%;
+  height: 40px;
+  background-color: #C70039;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.input_editora input{
+  width: 80%;
+  height: 40px;
+  color: black;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.input_categoria {
+  width: 600px;
+  height: 40px;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+  border: none;
+}
+
+.input_categoria label{
+  width: 20%;
+  height: 40px;
+  background-color: #C70039;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.input_categoria input{
+
+  height: 40px;
+  color: black;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.input_ano {
+  width: 600px;
+  height: 40px;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+  border: none;
+}
+
+.input_ano label{
+  width: 20%;
+  height: 40px;
+  background-color: #C70039;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.input_ano input{
+  width: 80%;
+  height: 40px;
+  color: black;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.input_ISBN {
+  width: 600px;
+  height: 40px;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+  border: none;
+}
+
+.input_ISBN label{
+  width: 20%;
+  height: 40px;
+  background-color: #C70039;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.input_ISBN input{
+  width: 80%;
+  height: 40px;
+  color: black;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.link_botaoedit {
+   -webkit-border-radius: 1px;
+   -moz-border-radius: 1px;
+   border-radius: 1px;
+   color: #FFFFFF;
+   font-family: Helvetica;
+   font-size: 14px;
+   padding: 12px;
+   background-color: #FF5733;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.link_botao {
+   -webkit-border-radius: 1px;
+   -moz-border-radius: 1px;
+   border-radius: 1px;
+   color: #FFFFFF;
+   font-family: Helvetica;
+   font-size: 14px;
+   padding: 12px;
+   background-color: #900C3F;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.container-acervo {
+
+  margin: 50px;
+}
+
+.container-acervo h1{
+
+   color: #FFFFFF;
+   font-family: Helvetica;
+   font-size: 16px;
+   padding: 12px;
+   background-color: #FF5733;
+   text-decoration: none;
+   display: inline-block;
+   text-align: center;
+
+}

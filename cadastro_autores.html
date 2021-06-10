@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Cadastro - AUTORES</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+	</head>
+	<body>
+		<a href="index.html"><img src="img/back.png" width="30px"></a>
+		<div class="container_autor">
+			<div class="titulo_autor">			
+				<h1>Cadastro de autores</h1> 
+			</div>
+			<div class="formulario">
+				<form action="cadastro_autor.php" method="POST">
+					<div class="input_autor">
+						<label>Autor:</label>
+						<input type="text" class ="input_text" name="autor" id="autor" required placeholder="Digite o nome do Autor">
+					</div>
+					<div class="input_nacional">
+						<label>Nacionalidade:</label>
+								<div class="div-select">
+							  <select name="pais" id="pais">
+							    <option value="1">Estados Unidos</option>
+							    <option value="2">Brasil</option>
+							    <option value="3">Canada</option>
+							    <option value="4">Inglaterra</option>
+							    <option value="5">Argentina</option>
+							  </select>
+							</div>
+					</div>
+						<input type="submit" class="botao" value="Cadastrar">
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
